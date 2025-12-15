@@ -1,5 +1,5 @@
 {
-  "name": "Habit Tracker",
-  "description": "A minimalist, AI-powered habit tracker inspired by the clean aesthetics of OpenAI. Track your daily routines and get intelligent insights from Gemini.",
+  "name": "Atomic Habit Tracker",
+  "description": "Inspired by James Clear's 'Atomic Habits'. A minimalist tracker powered by Google Gemini to build systems, not just goals. Features daily logging, AI coaching, and comprehensive data export. Built with Google AI Studio.",
   "requestFramePermissions": []
 }

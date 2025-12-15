@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Atomic Habit Tracker ⚛️
 
-# Run and deploy your AI Studio app
+> "You do not rise to the level of your goals. You fall to the level of your systems." — James Clear
 
-This contains everything you need to run your app locally.
+A minimalist, AI-powered habit tracker designed to help you build consistency and break bad habits. Built because tracking shouldn't be a chore—it should be a system for improvement.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Hw3qv6KXqQRyCCGq5MUuwz-knfE04G7C
+## 🌟 Why this tracker?
 
-## Run Locally
+I built this app while reading **Atomic Habits** by James Clear. I needed a tool that wasn't just about ticking boxes, but about **tracking the good habits I want to keep** and understanding the patterns behind them.
 
-**Prerequisites:**  Node.js
+Most trackers are static. This one is intelligent.
 
+## ✨ Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Daily Focus**: A distraction-free interface to log your daily 1% improvements.
+- **AI Coaching (Powered by Gemini)**: Unlike standard trackers, this app includes an AI coach that analyzes your consistency, notes, and trends to offer personalized advice.
+- **Visual Analytics**: Interactive charts to visualize your momentum.
+- **Data Sovereignty**:
+    - **CSV Export**: Analyze your data in Excel or Google Sheets.
+    - **Markdown Export**: Copy your 30-day history directly into Notion, Obsidian, or Apple Notes.
+- **Privacy First**: Your data lives in your browser's local storage.
+
+## 🛠️ Built with Google AI Studio
+
+This project was crafted using **Google AI Studio**, leveraging the cutting-edge **Gemini 2.5 Flash** model to power the intelligent coaching features.
+
+**Tech Stack:**
+- **Frontend**: React 19 + TypeScript
+- **Styling**: Tailwind CSS
+- **AI Integration**: Google GenAI SDK (`@google/genai`)
+- **Icons**: Lucide React
+- **Charts**: Recharts
+
+## 📊 Visuals
+
+The app features a clean, OpenAI-inspired aesthetic:
+
+1.  **Tracker View**: A simple grid for your daily logs.
+2.  **Stats Dashboard**: Beautiful area and bar charts showing your consistency rates over 14 days and 6 months.
+3.  **AI Chat**: A conversational interface to discuss your progress with Gemini.
+
+## 🚀 Getting Started
+
+1.  Add your habits (e.g., "Read 10 pages", "Meditate 5 mins").
+2.  Check them off daily.
+3.  Use the **Coach** tab to get weekly insights.
+4.  Export your data anytime via the Settings menu.
+
+---
+*Built with ❤️ and AI.*
