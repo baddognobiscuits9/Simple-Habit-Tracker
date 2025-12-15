@@ -1,0 +1,5 @@
+{
+  "name": "Habit Tracker",
+  "description": "A minimalist, AI-powered habit tracker inspired by the clean aesthetics of OpenAI. Track your daily routines and get intelligent insights from Gemini.",
+  "requestFramePermissions": []
+}
